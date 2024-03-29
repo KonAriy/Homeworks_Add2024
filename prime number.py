@@ -5,9 +5,7 @@ if number == 1:
 else:
     while a != number:
         a = a + 1
-        if a == 2:
-            print(a)
-        elif a == 3:
+        if a == 2 or a == 3:
             print(a)
         elif a % 2 == 0 or a % 3 == 0:
             continue
